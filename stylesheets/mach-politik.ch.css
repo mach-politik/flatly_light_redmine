@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'Noto Sans';
+	src: url('https://mach-politik.ch/font/notosans-regular-webfont.eot');
+	src: url('https://mach-politik.ch/font/notosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('https://mach-politik.ch/font/notosans-regular-webfont.woff2') format('woff2'),
+	     url('https://mach-politik.ch/font/notosans-regular-webfont.woff') format('woff'),
+	     url('https://mach-politik.ch/font/notosans-regular-webfont.ttf') format('truetype'),
+	     url('https://mach-politik.ch/font/notosans-regular-webfont.svg#noto_sansregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body, h1, h2, h3, h4 {
+	font-family: "Noto Sans", sans;
+}
+
+h1::first-letter {
+	text-transform: none;
+}
