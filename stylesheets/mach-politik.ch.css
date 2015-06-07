@@ -17,3 +17,9 @@ body, h1, h2, h3, h4 {
 h1::first-letter {
 	text-transform: none !important;
 }
+
+.redmine-logo{
+	height: 200px;
+	background-image: url('../images/signet-B-2farbig.svg');
+	border-radius: 100%:
+}
