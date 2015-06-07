@@ -19,7 +19,7 @@ h1::first-letter {
 }
 
 .redmine-logo{
-	height: 200px;
-	background-image: url('../images/signet-B-2farbig.svg');
+	height: 200px !important;
+	background-image: url('../images/signet-B-2farbig.svg') !important;
 	border-radius: 100%:
 }
