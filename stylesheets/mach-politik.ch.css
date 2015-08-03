@@ -1,13 +1,22 @@
 @font-face {
-	font-family: 'Noto Sans';
-	src: url('https://mach-politik.ch/font/notosans-regular-webfont.eot');
-	src: url('https://mach-politik.ch/font/notosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('https://mach-politik.ch/font/notosans-regular-webfont.woff2') format('woff2'),
-	     url('https://mach-politik.ch/font/notosans-regular-webfont.woff') format('woff'),
-	     url('https://mach-politik.ch/font/notosans-regular-webfont.ttf') format('truetype'),
-	     url('https://mach-politik.ch/font/notosans-regular-webfont.svg#noto_sansregular') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+
+/* if you want IE support, just add  
+        src: url('https://mach-politik.ch/font/notosans-regular-webfont.eot');
+	src: url('https://mach-politik.ch/font/notosans-regular-webfont.eot?#iefix') format('embedded-opentype');
+
+        see also: http://caniuse.com/#feat=ttf
+
+        of course you can just download the .ttf files too, if you want to use this on an intranet site,
+        and put the .ttf into fonts/ and replace the url(...) with url(../fonts/<filename>.ttf)
+        
+        this is from http://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700&subset=latin,latin-ext
+ */
+
+  src: local('Noto Sans'), local('NotoSans'), url(http://fonts.gstatic.com/s/notosans/v6/erE3KsIWUumgD1j_Ca-V-6CWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+
 }
 
 body, h1, h2, h3, h4 {
