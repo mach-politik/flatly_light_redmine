@@ -18,11 +18,31 @@ h1::first-letter {
 	text-transform: none !important;
 }
 
-.redmine-logo{
+.redmine-logo {
 	height: 150px !important;
 	width: 150px !important;
 	background-image: url('../images/signet-B-2farbig.svg') !important;
 	background-size: 150px auto !important;
 	background-color: #FFF;
 	border-radius: 100%;
+}
+
+.jstElements button {
+	float: left;
+}
+
+.jstb_help {
+	float: right;
+}
+
+.jstb_code,
+.jstb_del,
+.jstb_h2,
+.jstb_h3,
+.jstb_bq,
+.jstb_unbq,
+.jstb_pre,
+.jstb_link,
+.jstb_img {
+	display: none;
 }
