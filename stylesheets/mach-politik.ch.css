@@ -50,21 +50,21 @@ h1::first-letter {
 }
 
 #content {
-	background-color: rgb(110, 196, 233);
+	background-color: rgb(110, 196, 233) !important;
 }
 
 a:hover, a:active, a:focus {
-	color: rgb(255, 76, 0);
+	color: rgb(255, 76, 0) !important;
 }
 
 a:link {
-	color: rgb(77, 32, 6);
+	color: rgb(77, 32, 6) !important;
 }
 
 a:visited {
-	color: rgb(0, 73, 135);
+	color: rgb(0, 73, 135) !important;
 }
 
 #content h1, h2, h3, h4 {
-	rgb(60, 60, 60)
+	rgb(60, 60, 60) !important;
 }
