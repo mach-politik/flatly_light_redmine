@@ -27,7 +27,8 @@ h1::first-letter {
 	border-radius: 100%;
 }
 
-.jstElements button {
+.jstElements button,
+#issue_is_private_wrap {
 	float: left;
 }
 
@@ -43,6 +44,7 @@ h1::first-letter {
 .jstb_unbq,
 .jstb_pre,
 .jstb_link,
-.jstb_img {
+.jstb_img,
+.splitcontentright {
 	display: none;
 }
