@@ -48,3 +48,23 @@ h1::first-letter {
 .splitcontentright {
 	display: none;
 }
+
+#content {
+	background-color: rgb(110, 196, 233);
+}
+
+a:hover, a:active, a:focus {
+	color: rgb(255, 76, 0);
+}
+
+a:link {
+	color: rgb(77, 32, 6);
+}
+
+a:visited {
+	color: rgb(0, 73, 135);
+}
+
+#content h1, h2, h3, h4 {
+	rgb(60, 60, 60)
+}
