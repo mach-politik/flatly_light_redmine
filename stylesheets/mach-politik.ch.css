@@ -54,11 +54,11 @@ h1::first-letter {
 }
 
 a:link {
-	color: rgb(40, 141, 193) !important;
+	color: rgb(0, 73, 135) !important;
 }
 
 a:visited {
-	color: rgb(0, 73, 135) !important;
+	color: rgb(40, 141, 193) !important;
 }
 
 a:hover, a:active, a:focus {
