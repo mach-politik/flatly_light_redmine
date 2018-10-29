@@ -50,7 +50,7 @@ h1::first-letter {
 }
 
 #content {
-	background-color: rgb(110, 196, 233) !important;
+	background-color: rgba(110, 196, 233, 0.6) !important;
 }
 
 a:link {
